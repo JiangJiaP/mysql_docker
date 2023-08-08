@@ -1,7 +1,7 @@
-CREATE TABLE users (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    username VARCHAR(255) NOT NULL,
-    password VARCHAR(255) NOT NULL
+CREATE TABLE id_info (
+    cid VARCHAR(255) NOT NULL,
+    route_id VARCHAR(255) NOT NULL,
+    multi_id VARCHAR(255) NOT NULL
 );
 
 INSERT INTO users (username, password) VALUES ('user1', 'password1');
